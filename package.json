@@ -1,0 +1,28 @@
+{
+  "name": "money-tracker",
+  "version": "0.0.1-alpha",
+  "description": "Track your money as well as possible",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KharamanV/money-tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KharamanV/money-tracker/issues"
+  },
+  "homepage": "https://github.com/KharamanV/money-tracker#readme",
+  "dependencies": {
+    "config": "^1.26.1",
+    "express": "^4.15.3",
+    "js-yaml": "^3.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
